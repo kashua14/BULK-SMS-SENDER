@@ -1,6 +1,6 @@
 # BULK SMS SENDER
 
-![version](https://img.shields.io/badge/version-2.1.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-material-dashboard-pro-react.svg)](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-material-dashboard-pro-react.svg)](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-2.1.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-material-dashboard-pro-react.svg)](https://github.com/kashua14/BULK-SMS-SENDER.git/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-material-dashboard-pro-react.svg)](https://github.com/kashua14/BULK-SMS-SENDER.git/issues?q=is%3Aissue+is%3Aclosed)
 
 ## Terminal Commands
 
@@ -99,7 +99,6 @@ bulk-sms-sender
     ├── .eslintrc.json
     ├── .prettierrc.json
     ├── CHANGELOG.md
-    ├── ISSUE_TEMPLATE.md
     ├── jsconfig.json
     ├── package.json
     └── README.md
