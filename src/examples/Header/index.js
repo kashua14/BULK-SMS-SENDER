@@ -54,12 +54,11 @@ function Header({ children }) {
       to: receipts,
       message: editorValue,
     };
-    console.log("MessageRequest: ", MessageRequest);
     fetch("httpd://api.sandbox.africastalking.com/version1/messaging", {
       body: MessageRequest,
       headers: {
         Accept: "application/json",
-        Apikey: "1fe060a47e09eca6f368acc5668545b21471dc9ebb86042ffd7e4242e55b520f",
+        Apikey: "APIKEY",
         "Content-Type": "application/x-www-form-urlencoded",
       },
       method: "POST",
@@ -69,11 +68,13 @@ function Header({ children }) {
           if (!response.ok) {
             return Promise.reject(json);
           }
+          // eslint-disable-next-line no-console
           console.log(json);
           return json;
         })
       )
       .catch((error) => {
+        // eslint-disable-next-line no-console
         console.log(error.message);
       });
   }
