@@ -20,7 +20,7 @@ import burceMars from "assets/images/bruce-mars.jpg";
 import backgroundImage from "assets/images/bg-profile.jpeg";
 import MDButton from "components/MDButton";
 import CustomDialog from "components/Dialog/CustomDialog";
-import FormField from "layouts/ecommerce/products/new-product/components/FormField";
+import FormField from "components/FormField";
 
 function Header({ children }) {
   const [tabsOrientation, setTabsOrientation] = useState("horizontal");
