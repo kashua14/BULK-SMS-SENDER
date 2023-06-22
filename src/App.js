@@ -9,7 +9,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 
 // Material Dashboard 2 PRO React themes
 import theme from "assets/theme";
-
+//importing route
 import { Route, Routes, useLocation } from "react-router-dom";
 
 // Material Dashboard 2 PRO React contexts
